@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:metro="clr-namespace:MahApps.Metro;assembly=MahApps.Metro">
+    <DataTemplate x:Key="SimpleAccentTemplate" DataType="{x:Type metro:Accent}">
+        <TextBlock Text="{Binding Name}" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="SimpleAppThemeTemplate" DataType="{x:Type metro:AppTheme}">
+        <TextBlock Text="{Binding Name}" />
+    </DataTemplate>
+</ResourceDictionary>
