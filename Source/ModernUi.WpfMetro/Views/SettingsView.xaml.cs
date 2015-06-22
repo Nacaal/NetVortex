@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernUi.WpfMetro.Views
+namespace NetVortex.ModernUi.WpfMetro.Views
 {
     /// <summary>
     /// Interaction logic for SettingsView.xaml

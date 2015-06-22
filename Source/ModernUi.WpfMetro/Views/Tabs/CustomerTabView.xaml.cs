@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernUi.WpfMetro.Views.Tabs
+namespace NetVortex.ModernUi.WpfMetro.Views.Tabs
 {
     /// <summary>
     /// Interaction logic for CustomerTabView.xaml

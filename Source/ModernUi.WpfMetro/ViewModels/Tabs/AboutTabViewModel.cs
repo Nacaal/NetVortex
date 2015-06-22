@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModernUi.WpfMetro.ViewModels.Tabs
+namespace NetVortex.ModernUi.WpfMetro.ViewModels.Tabs
 {
     class AboutTabViewModel : Screen
     {

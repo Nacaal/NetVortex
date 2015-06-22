@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Caliburn.Micro;
 
-namespace ModernUi.WpfMetro.ViewModels
+namespace NetVortex.ModernUi.WpfMetro.ViewModels
 {
     public class CupcakesViewModel : PropertyChangedBase
     {

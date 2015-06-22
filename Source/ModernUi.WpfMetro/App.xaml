@@ -1,7 +1,7 @@
-﻿<Application x:Class="ModernUi.WpfMetro.App"
+﻿<Application x:Class="NetVortex.ModernUi.WpfMetro.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:ModernUi.WpfMetro">
+             xmlns:local="clr-namespace:NetVortex.ModernUi.WpfMetro">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

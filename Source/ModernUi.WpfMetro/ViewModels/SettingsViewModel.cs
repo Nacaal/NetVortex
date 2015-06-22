@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 using Caliburn.Micro;
 using MahApps.Metro;
 using System.Collections.ObjectModel;
-using ModernUi.WpfMetro.Views;
+using NetVortex.ModernUi.WpfMetro.Views;
 
-namespace ModernUi.WpfMetro.ViewModels
+namespace NetVortex.ModernUi.WpfMetro.ViewModels
 {
     public class SettingsViewModel : PropertyChangedBase
     {

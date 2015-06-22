@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace ModernUi.WpfMetro.ViewModels.Tabs
+namespace NetVortex.ModernUi.WpfMetro.ViewModels.Tabs
 {
     class CustomerTabViewModel : Screen
     {

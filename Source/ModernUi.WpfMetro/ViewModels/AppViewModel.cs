@@ -8,9 +8,9 @@ using System.Windows;
 using Caliburn.Micro;
 using MahApps.Metro.Controls;
 using MahApps.Metro.Controls.Dialogs;
-using ModernUi.WpfMetro.ViewModels.Tabs;
+using NetVortex.ModernUi.WpfMetro.ViewModels.Tabs;
 
-namespace ModernUi.WpfMetro.ViewModels
+namespace NetVortex.ModernUi.WpfMetro.ViewModels
 {
     public class AppViewModel : Conductor<IScreen>.Collection.OneActive
     {

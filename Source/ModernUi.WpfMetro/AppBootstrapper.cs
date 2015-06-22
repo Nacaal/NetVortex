@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Autofac;
 using Caliburn.Metro.Autofac;
 using Caliburn.Micro;
-using ModernUi.WpfMetro.ViewModels;
+using NetVortex.ModernUi.WpfMetro.ViewModels;
 
-namespace ModernUi.WpfMetro
+namespace NetVortex.ModernUi.WpfMetro
 {
     class AppBootstrapper : CaliburnMetroAutofacBootstrapper<AppViewModel>
     {

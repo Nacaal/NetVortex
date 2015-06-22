@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Caliburn.Metro.Core;
 using MahApps.Metro.Controls;
-using ModernUi.WpfMetro.Views;
+using NetVortex.ModernUi.WpfMetro.Views;
 
-namespace ModernUi.WpfMetro
+namespace NetVortex.ModernUi.WpfMetro
 {
     public class AppWindowManager : MetroWindowManager
     {

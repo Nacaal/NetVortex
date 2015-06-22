@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ModernUi.WpfMetro.Properties
+namespace NetVortex.ModernUi.WpfMetro.Properties
 {
 
 

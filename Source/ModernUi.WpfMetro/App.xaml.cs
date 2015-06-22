@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace ModernUi.WpfMetro
+namespace NetVortex.ModernUi.WpfMetro
 {
     /// <summary>
     /// Interaction logic for App.xaml
