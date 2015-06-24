@@ -12,8 +12,8 @@
                          XPath="/Customers/Customer" />
     </UserControl.Resources>
     <Grid>
-        <DataGrid AutoGenerateColumns="False"
-                  AlternatingRowBackground="{DynamicResource AccentColorBrush4}"
+        <DataGrid AlternatingRowBackground="{DynamicResource AccentColorBrush4}"
+                  AutoGenerateColumns="False"
                   ItemsSource="{Binding Source={StaticResource XmlDataSource}}"
                   SelectedItem="{Binding SelectedItem}">
             <DataGrid.Columns>

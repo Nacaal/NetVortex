@@ -15,11 +15,12 @@ namespace NetVortex.ModernUi.WpfMetro
         protected override void ConfigureContainer(ContainerBuilder builder)
         {
             builder.RegisterType<AppWindowManager>().As<IWindowManager>().SingleInstance();
-            var assembly = typeof(AppViewModel).Assembly;
-            builder.RegisterAssemblyTypes(assembly)
-                .Where(item => item.Name.EndsWith("ViewModel") && item.IsAbstract == false)
-                .AsSelf()
-                .SingleInstance();
+
+            //var assembly = typeof(AppViewModel).Assembly;
+            //builder.RegisterAssemblyTypes(assembly)
+            //    .Where(item => item.Name.EndsWith("ViewModel") && item.IsAbstract == false)
+            //    .AsSelf()
+            //    .SingleInstance();
         }
     }
 }
