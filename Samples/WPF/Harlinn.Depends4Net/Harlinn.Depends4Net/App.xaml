@@ -1,0 +1,20 @@
+﻿<Application x:Class="Harlinn.Depends4Net.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:types="clr-namespace:Harlinn.Depends4Net.Types"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary >
+            <ObjectDataProvider x:Key="DependsDataSource" ObjectType="{x:Type types:Depends}">
+                <ObjectDataProvider.ConstructorParameters />
+            </ObjectDataProvider>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ExpressionDark.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
+        
+        
+
+    </Application.Resources>
+</Application>

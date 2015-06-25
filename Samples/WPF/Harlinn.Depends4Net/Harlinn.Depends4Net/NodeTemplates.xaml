@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:types="clr-namespace:Harlinn.Depends4Net.Types">
+
+    <HierarchicalDataTemplate x:Key="AssemblyTypesNodeTemplate" >
+        <StackPanel>
+            <TextBlock Text="{Binding Path=Name}" />
+        </StackPanel>
+    </HierarchicalDataTemplate>
+
+
+    <HierarchicalDataTemplate x:Key="AssemblyNodeTemplate" ItemsSource="{Binding Children}">
+        <StackPanel>
+            <TextBlock Text="{Binding Path=Name}" />
+        </StackPanel>
+    </HierarchicalDataTemplate>
+
+    <HierarchicalDataTemplate x:Key="ReferencedAssembliesNodeTemplate" ItemsSource="{Binding Assemblies}">
+        <StackPanel>
+            <TextBlock Text="{Binding Path=Name}" />
+        </StackPanel>
+    </HierarchicalDataTemplate>
+
+
+</ResourceDictionary>
