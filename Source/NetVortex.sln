@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUi.WpfMetro", "ModernUi.WpfMetro\ModernUi.WpfMetro.csproj", "{981B4008-A8A4-4482-8E4A-A7B6E48C8AA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition.AutoFac", "Composition.AutoFac\Composition.AutoFac.csproj", "{E212DF20-2D77-417A-A76F-CA47EE28037C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUi.ExcelViewer", "ModernUi.ExcelViewer\ModernUi.ExcelViewer.csproj", "{262E57E0-6D35-4DD3-9E37-C4B0428EA485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office.SimpleExcelXml", "Office.SimpleExcelXml\Office.SimpleExcelXml.csproj", "{54C46385-6790-4EE2-9798-B8AEC521412F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{981B4008-A8A4-4482-8E4A-A7B6E48C8AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{981B4008-A8A4-4482-8E4A-A7B6E48C8AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{981B4008-A8A4-4482-8E4A-A7B6E48C8AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E212DF20-2D77-417A-A76F-CA47EE28037C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E212DF20-2D77-417A-A76F-CA47EE28037C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E212DF20-2D77-417A-A76F-CA47EE28037C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E212DF20-2D77-417A-A76F-CA47EE28037C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262E57E0-6D35-4DD3-9E37-C4B0428EA485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262E57E0-6D35-4DD3-9E37-C4B0428EA485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262E57E0-6D35-4DD3-9E37-C4B0428EA485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262E57E0-6D35-4DD3-9E37-C4B0428EA485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C46385-6790-4EE2-9798-B8AEC521412F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C46385-6790-4EE2-9798-B8AEC521412F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C46385-6790-4EE2-9798-B8AEC521412F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C46385-6790-4EE2-9798-B8AEC521412F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
