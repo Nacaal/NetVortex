@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUi.ExcelViewer", "Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office.SimpleExcelXml", "Office.SimpleExcelXml\Office.SimpleExcelXml.csproj", "{54C46385-6790-4EE2-9798-B8AEC521412F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetVortex.Web.WcfRestAlone", "NetVortex.Web.WcfRestAlone\NetVortex.Web.WcfRestAlone.csproj", "{06F47DEC-4F88-4190-8BCA-37FE114AE7CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{54C46385-6790-4EE2-9798-B8AEC521412F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54C46385-6790-4EE2-9798-B8AEC521412F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54C46385-6790-4EE2-9798-B8AEC521412F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F47DEC-4F88-4190-8BCA-37FE114AE7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F47DEC-4F88-4190-8BCA-37FE114AE7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F47DEC-4F88-4190-8BCA-37FE114AE7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F47DEC-4F88-4190-8BCA-37FE114AE7CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
