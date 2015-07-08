@@ -143,6 +143,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\NetVortex.Extensions\NetVortex.Extensions.csproj">
+      <Project>{1cdacab2-3e3d-46a7-883a-24c1bddf8d45}</Project>
+      <Name>NetVortex.Extensions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Office.SimpleExcelXml\NetVortex.Office.SimpleExcelXml.csproj">
       <Project>{54c46385-6790-4ee2-9798-b8aec521412f}</Project>
       <Name>NetVortex.Office.SimpleExcelXml</Name>

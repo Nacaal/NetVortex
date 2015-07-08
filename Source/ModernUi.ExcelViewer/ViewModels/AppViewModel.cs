@@ -14,6 +14,7 @@ using NetVortex.ModernUi.ExcelViewer.Model;
 using MahApps.Metro.Controls;
 using MahApps.Metro.Controls.Dialogs;
 using System.IO;
+using NetVortex.Extensions;
 
 namespace NetVortex.ModernUi.ExcelViewer.ViewModels
 {
@@ -40,9 +41,7 @@ namespace NetVortex.ModernUi.ExcelViewer.ViewModels
 
             var sqlBuilder = new StringBuilder();
 
-            const string baseSql = "UPDATE [dbo].[Account_AccountLib_{0}] SET [ITManagerKonto] = '{1}' " +
-                                   "WHERE [MitarbeiterUri] = '{2}' AND [ITManagerKonto] = '{3}' " +
-                                   "AND [Status] = 'deleted'";
+            const string baseSql = "UPDATE [dbo].[Account_AccountLib_{0}] SET [ITManagerKonto] = '{1}' WHERE [ITManagerKonto] = '{2}' AND [Status] = 'deleted'";
 
             sqlBuilder.AppendLine("USE [comet3db]").AppendLine()
                       .AppendLine("BEGIN TRANSACTION");
@@ -53,7 +52,12 @@ namespace NetVortex.ModernUi.ExcelViewer.ViewModels
                 for (int i = 1; i < sheet.SheetRows.Count; i++)
                 {
                     var row = sheet.SheetRows[i];
-                    sqlBuilder.AppendFormat(baseSql, sheet.DisplayName, row.ItManagerNeu, row.MitarbeiterUri, row.ItManagerAlt).AppendLine();
+                    var query = string.Format(baseSql, sheet.DisplayName.ToLower(), row.ItManagerNeu, row.ItManagerAlt);
+
+                    row.DienstName.ExecuteIfNotNullOrWhitespace(() => query += string.Format(" AND [Name] = '{0}'", row.DienstName));
+                    row.MitarbeiterUri.ExecuteIfNotNullOrWhitespace(() => query += string.Format(" AND [MitarbeiterUri] = '{0}'", row.MitarbeiterUri));
+
+                    sqlBuilder.AppendFormat(query).Append(";").AppendLine();
                 }
             }
 
