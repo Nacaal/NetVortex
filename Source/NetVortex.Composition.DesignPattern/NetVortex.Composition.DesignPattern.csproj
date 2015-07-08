@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\BasicSingleton.cs" />
+    <Compile Include="Singleton\LazyNestedSingleton.cs" />
     <Compile Include="Singleton\LazySingleton.cs" />
     <Compile Include="Singleton\LazyStaticSingleton.cs" />
     <Compile Include="Singleton\LazyVolatileSingleton.cs" />
